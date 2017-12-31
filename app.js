@@ -1,7 +1,7 @@
 'use strict';
 
 const director = require('director');
-const Server   = require('./lib/server');
+const Server   = require('./lib/server-2');
 
 // Create a router for GET and POST requests to the app
 const router = new director.http.Router({
